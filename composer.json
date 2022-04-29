@@ -1,0 +1,30 @@
+{
+    "name": "wdelfuego/nova-actions",
+    "description": "Makes working with Actions in Laravel's Nova 4 easier",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "laravel/nova": "^4.0",
+        "wdelfuego/nova-datetime": "^1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wdelfuego\\Nova\\Actions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Willem Vervuurt",
+            "email": "willem@studiodelfuego.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wdelfuego\\Nova\\Actions\\ServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}

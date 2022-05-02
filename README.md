@@ -26,7 +26,7 @@ composer require wdelfuego/nova-actions
 
 That's it!
 
-The 'Action Happened At' column displayed in the action logs of all of your Nova 4 resources are now shown in the global `DateTime` format you specified in `config/nova-datetime.php`.
+The 'Action Happened At' column displayed in the action logs of all of your Nova 4 resources is now shown in the global `DateTime` format you specified in `config/nova-datetime.php`.
 
 
 ## Support
